@@ -1,11 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Quotes from './Mescomponents/Quotes';
-import RedPand from './Mescomponents/RedPand';
-import Conditionif from './Mescomponents/Conditionif';
-import MesEvent from './Mescomponents/MesEvent';
-
 
 class App extends Component {
   render() {
@@ -14,14 +9,17 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            <h1> Ma Progression </h1>
+            Edit <code>src/App.js</code> and save to reload.
           </p>
-    
+          <a
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn React
+          </a>
         </header>
-        <Quotes/>
-        <RedPand/>
-        <Conditionif/>
-        <MesEvent/>
       </div>
     );
   }
